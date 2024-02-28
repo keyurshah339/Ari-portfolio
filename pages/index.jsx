@@ -20,8 +20,8 @@ const Home = () => {
             exit="hidden"
             className="h1"
           >
-            Transforming Ideas <br /> Into{" "}
-            <span className="text-accent">Digital Reality</span>
+            One Stop Solution <br />{" "}
+            <span className="text-accent"> For All IT Services</span>
           </motion.h1>
 
           {/* subtitle */}
@@ -32,10 +32,7 @@ const Home = () => {
             exit="hidden"
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
           >
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate,
-            exercitationem harum, quia nulla temporibus deleniti libero veniam
-            vero beatae numquam ducimus illum ab similique ipsam tempore fugit
-            quod laudantium debitis.
+            Elevate your enterprise with our seasoned expertise, delivering premier services across SaaS, AI, chatbot, blockchain, web, and mobile applications, complemented by UI/UX design solutions.
           </motion.p>
 
           {/* btn */}
@@ -49,7 +46,11 @@ const Home = () => {
             exit="hidden"
             className="hidden xl:flex"
           >
-            <ProjectsBtn />
+            {/* <ProjectsBtn /> */}
+            <br />
+            <br />
+            <br />
+
           </motion.div>
         </div>
       </div>
@@ -66,13 +67,13 @@ const Home = () => {
         <ParticlesContainer />
 
         {/* avatar */}
-        <motion.div
+        <motion.div 
           variants={fadeIn("up", 0.5)}
-          initial="hidden"
+          initial="hidden" 
           animate="show"
-          exit="hidden"
+          exit="hidden" 
           transition={{ duration: 1, ease: "easeInOut" }}
-          className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32 lg:bottom-0 lg:right-[8%]"
+          className="  w-full h-full max-w-[337px] max-h-[278px] absolute -bottom-32 lg:bottom-60 lg:right-[8%]"
         >
           <Avatar />
         </motion.div>

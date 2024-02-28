@@ -4,10 +4,10 @@ const Avatar = () => {
   return (
     <div className="hidden xl:flex xl:max-w-none pointer-events-none select-none">
       <Image
-        src="/avatar.png"
+        src="/avatar4.png"
         alt="avatar"
-        width={737}
-        height={678}
+        width={337}
+        height={278}
         className="translate-z-0 w-full h-full"
       />
     </div>
