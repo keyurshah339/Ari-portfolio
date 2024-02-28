@@ -37,7 +37,7 @@ const Home = () => {
 
           {/* btn */}
           <div className="flex justify-center xl:hidden relative">
-            <ProjectsBtn />
+            {/* <ProjectsBtn /> */}
           </div>
           <motion.div
             variants={fadeIn("down", 0.4)}
